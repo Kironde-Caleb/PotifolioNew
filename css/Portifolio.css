@@ -1,0 +1,442 @@
+@font-face{
+    font-family: "roboto"; 
+    src:url(../Fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    background-color:  rgb(92, 92, 141);
+    background-image: url(../Portifolio/abstract-blue-banner-0xzjuwinjczdpf5m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**pORIFOLIO**/
+.poti{
+    font-family: "roboto";
+    font-size: 60px;
+    margin-bottom: 120px;
+    color: white;
+}
+/**image**/
+.money{
+    width: 100vh; 
+    height: 80vh; 
+    margin-top: 90px;
+    position: absolute;
+    left: 83px;
+}
+/**BUtton**/
+.button{
+    position: absolute;
+    top: 20px;
+    font-family: "roboto";
+    font-weight: 600;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    width: 150px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+img{
+    width: 80px;
+}
+
+.navi{
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 450px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+.list{
+    list-style: none;
+    float: left;
+    display: flex;
+}
+
+a{
+    padding-right: 30px;
+    font-family: "roboto";
+    display: block;
+}
+
+a:hover{
+    color: blue;
+}
+
+.social{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    float: left;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.fb{
+    width: 20px;
+    height: 20px;
+    background-image: url(../Portifolio/images.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+.fb:hover{
+    background-image: url(../Portifolio/645800e19178cb167e405da0_Facebook-logo.png);
+}
+
+.inst{
+    width: 20px;
+    height: 20px;
+    background-image: url(../Portifolio/black-square-social-media-logo_197792-3367-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+.inst:hover{
+    background-image: url(../Portifolio/instagram-vector-logo-icon-social-media-logotype_901408-392.jpg);
+}
+
+.link{
+    width: 20px;
+    height: 20px;
+    background-image: url(../Portifolio/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+.link:hover{
+    background-image: url(../Portifolio/1200x630wa.png);
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.main-wrapper{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    position: relative;
+}
+
+.image2{
+    z-index: 10;
+    position: absolute;
+    left: 1050px;
+    bottom: 250px;
+    background-color: white;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.logo2{
+     width: 130px;
+    height: 40px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+
+.anew{
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: blue;
+    padding-right: 13px;
+    padding-left: 13px;
+    height: 30px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.anew:hover{
+    cursor: pointer;
+    background-color: rgb(107, 107, 167);
+}
+
+.image1 img{
+    width: 4000px;
+    height: 100vh; 
+}
+
+.learn{
+    width: 250px;
+    height: 80px;
+    background-image: url(../Portifolio/Screenshot\ \(21\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    background-position: center;
+    top: 100px;
+    font-family: roboto;
+    font-size: 80px;
+    font-weight: 600;
+    left: 100px;
+    
+}
+
+.p1{
+    color: white;
+    position: absolute;
+    left: 70px;
+    font-family: roboto;
+    font-size:150;
+    font-weight: 600;
+    top: 400px;
+    border-top: 7px solid blue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.p2{
+    color: white;
+    position: absolute;
+    left: 630px;
+    font-family: roboto;
+    font-size: 150;
+    font-weight: 600;
+    top: 250px;
+    border-top: 7px solid blue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+section{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: white;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    position: relative;
+     flex-wrap: wrap;
+}
+
+.category{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: relative;
+}
+
+.category:nth-child(2){
+    background-image: url(../Portifolio/online\ buying.jpeg);
+}
+
+.category:nth-child(2):hover{
+    background-image: url(../Portifolio/online\ buying\ -\ Copy.jpeg);
+}
+
+.category:nth-child(3){
+    background-image: url(../Portifolio/online\ selling.webp);
+}
+
+.category:nth-child(3):hover{
+    background-image: url(../Portifolio/online\ selling\ -\ Copy.jpg);
+}
+
+.category:nth-child(4){
+    background-image: url(../Portifolio/online\ market\ place.png);
+}
+
+.category:nth-child(4):hover{
+    background-image: url(../Portifolio/online\ market\ place.png)
+}
+
+.category:nth-child(5){
+    background-image: url(../Portifolio/onlin\ business\ promotion.jpg)
+}
+
+.category:nth-child(5):hover{
+    background-image: url(../Portifolio/onlin\ business\ promotion\ -\ Copy.jpg);
+}
+
+.opp{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+h3{
+    font-family: roboto;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 900;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+p{
+    font-family: roboto;
+    font-weight:400;
+    color: blue;
+    text-align: center;
+    flex-basis: 100%;
+    padding-bottom: 40px;
+}
+/*ABOUT SECTION*/
+.about{
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgb(92, 92, 141);
+}
+
+.index-wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content:left;
+      column-gap: 53px;
+    padding-bottom: 30px;
+}
+.image img{
+    width: 155px;
+    border-radius: 155px;
+    margin-left: 50px;
+}
+
+.small{
+    flex-basis: 400px;
+}
+
+p{
+    color: white;
+    font-family: roboto;
+    font-size:150;
+    font-weight: 600;
+    text-align: left;
+}
+
+.small h3{
+     margin-bottom: 10px;
+     color: white;
+     border-bottom: 4px solid blue;
+}
+
+.small a{
+    color: white;
+    background-color: blue;
+    display: block;
+    font-family: roboto;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    flex-basis: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.small a:hover{
+    background-color: rgb(64, 64, 81);
+}
+
+.skill{
+    flex-basis: 330px;
+}
+
+.boda{
+    border: 4px, solid rgb(42, 42, 104);
+    width: 100%;
+    height: 20px;
+}
+
+.one{
+    color: white;
+    font-size: 14px;
+}
+
+.one:hover{
+    cursor: default;
+    color: white;
+}
+
+.fill{
+    width: 100%;
+    height: 12px;
+    background-color: blue;
+}
+
+.a{
+    width: 98%;
+    height: 12px;
+    background-color: blue;
+}
+
+.b{
+    width: 67%;
+    height: 12px;
+    background-color: blue;
+}
+
+.c{
+    width: 80%;
+    height: 12px;
+    background-color: blue;
+}
+
+.d{
+    width: 95%;
+    height: 12px;
+    background-color: blue;
+}
+
+.e{
+    width: 85%;
+    height: 12px;
+    background-color: blue;
+}
